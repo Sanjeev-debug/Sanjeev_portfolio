@@ -105,7 +105,7 @@
    
     /* bottom:  px; */
     right: 10px;
-    
+    opacity: 0;
     flex-direction: column;
     margin-top: -300px;
     /* z-index: 2; */
@@ -116,6 +116,7 @@
   }
   .navtoggle{
     margin-top: 270px;
+    opacity: 1;
   }
     
    
