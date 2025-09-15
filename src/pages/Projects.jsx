@@ -3,27 +3,27 @@ import './Projects.css'
 import LinesMove from '../components/LinesMove'
 import Haat from '../assets/Haatvideo.mp4'
 // import CarMoving from '../assets/CarMoving.mp4'
-// import DashBoardWeb from '../assets/DashBoardWeb.mp4'
+import DashBoardWeb from '../assets/DashBoardWeb.mp4'
 // import DroolWeb from '../assets/DroolWeb.mp4'
 // import EflyerWeb from '../assets/EflyerWeb.mp4'
 // import ludo from '../assets/ludoImage.mp4'
 // import PacMan from '../assets/PacmanMove.mp4'
 // import SolarSystem from '../assets/SolarSystem.mp4'
-// import TodoApp from '../assets/TodoApp.mp4'
+import TodoApp from '../assets/TodoApp.mp4'
 // import Restaurant from '../assets/Restaurant.mp4'
-// import RestaurantWeb from '../assets/RestaurantWeb.mp4'
+import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 
 import HaatPoster from '../assets/poster.png'
 // import CarPoster from '../assets/CarMoving.png'
-// import DashBoardPoster from '../assets/DashBoardWeb.png'
+import DashBoardPoster from '../assets/DashBoardWeb.png'
 // import DroolPoster from '../assets/DroolWeb.png'
 // import EflyerPoster from '../assets/EflyerWeb.png'
 // import LudoPoster from '../assets/Ludo.png'
 // import PacmanPoster from '../assets/PacmanMove.png'
 // import RestaurantPoster from '../assets/Restaurant.png'
-// import RestaurantWebPoster from '../assets/RestaurantWeb.png'
+import RestaurantWebPoster from '../assets/RestaurantWeb.png'
 // import SolarPoster from '../assets/SolarSystem.png'
-// import TodoAppPoster from '../assets/TodoApp.png'
+import TodoAppPoster from '../assets/TodoApp.png'
 
 import VideoShow from '../components/VideoShow'
 
@@ -49,12 +49,12 @@ const Projects = () => {
       videoName: DashBoardWeb,
       posterName: DashBoardPoster
     },
-    // {
-    //   title1: "TodoApp : website",
-    //   title2: "Using : React.js ",
-    //   videoName: TodoApp,
-    //   posterName: TodoAppPoster
-    // },
+    {
+      title1: "TodoApp : website",
+      title2: "Using : React.js ",
+      videoName: TodoApp,
+      posterName: TodoAppPoster
+    },
     // {
     //   title1: "Restaurant : Webpage",
     //   title2: "Using : HTML CSS",
