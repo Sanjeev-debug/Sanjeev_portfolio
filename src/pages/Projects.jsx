@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import LinesMove from '../components/LinesMove'
 import Haat from '../assets/Haatvideo.mp4'
-// import CarMoving from '../assets/CarMoving.mp4'
+import CarMoving from '../assets/CarMoving.mp4'
 import DashBoardWeb from '../assets/DashBoardWeb.mp4'
 import DroolWeb from '../assets/DroolWeb.mp4'
 import EflyerWeb from '../assets/EflyerWeb.mp4'
@@ -14,7 +14,7 @@ import Restaurant from '../assets/Restaurant.mp4'
 import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 
 import HaatPoster from '../assets/poster.png'
-// import CarPoster from '../assets/CarMoving.png'
+import CarPoster from '../assets/CarMoving.png'
 import DashBoardPoster from '../assets/DashBoardWeb.png'
 import DroolPoster from '../assets/DroolWeb.png'
 import EflyerPoster from '../assets/EflyerWeb.png'
@@ -79,12 +79,12 @@ const Projects = () => {
       videoName: SolarSystem,
       posterName: SolarPoster
     },
-    //  {
-    //   title1: "Car Moving : Webpage",
-    //    title2: "Using : HTML CSS (Animation)",
-    //   videoName: CarMoving,
-    //   posterName: CarPoster
-    // },
+     {
+      title1: "Car Moving : Webpage",
+       title2: "Using : HTML CSS (Animation)",
+      videoName: CarMoving,
+      posterName: CarPoster
+    },
     //  {
     //   title1: "Pacman : Webpage",
     //     title2: "Using : HTML CSS (Animation)",
