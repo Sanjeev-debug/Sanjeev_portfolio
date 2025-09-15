@@ -4,7 +4,7 @@ import LinesMove from '../components/LinesMove'
 import Haat from '../assets/Haatvideo.mp4'
 // import CarMoving from '../assets/CarMoving.mp4'
 import DashBoardWeb from '../assets/DashBoardWeb.mp4'
-// import DroolWeb from '../assets/DroolWeb.mp4'
+import DroolWeb from '../assets/DroolWeb.mp4'
 // import EflyerWeb from '../assets/EflyerWeb.mp4'
 // import ludo from '../assets/ludoImage.mp4'
 // import PacMan from '../assets/PacmanMove.mp4'
@@ -16,7 +16,7 @@ import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 import HaatPoster from '../assets/poster.png'
 // import CarPoster from '../assets/CarMoving.png'
 import DashBoardPoster from '../assets/DashBoardWeb.png'
-// import DroolPoster from '../assets/DroolWeb.png'
+import DroolPoster from '../assets/DroolWeb.png'
 // import EflyerPoster from '../assets/EflyerWeb.png'
 // import LudoPoster from '../assets/Ludo.png'
 // import PacmanPoster from '../assets/PacmanMove.png'
@@ -61,12 +61,12 @@ const Projects = () => {
       videoName: Restaurant,
       posterName: RestaurantPoster
     },
-    // {
-    //   title1: "Drool : Webpage",
-    //   title2: "Using : HTML CSS",
-    //   videoName: DroolWeb,
-    //   posterName: DroolPoster
-    // },
+    {
+      title1: "Drool : Webpage",
+      title2: "Using : HTML CSS",
+      videoName: DroolWeb,
+      posterName: DroolPoster
+    },
     // {
     //   title1: "Eflyer :  Webpage",
     //   title2: "USing : HTML CSS",
