@@ -10,7 +10,7 @@ import DashBoardWeb from '../assets/DashBoardWeb.mp4'
 // import PacMan from '../assets/PacmanMove.mp4'
 // import SolarSystem from '../assets/SolarSystem.mp4'
 import TodoApp from '../assets/TodoApp.mp4'
-// import Restaurant from '../assets/Restaurant.mp4'
+import Restaurant from '../assets/Restaurant.mp4'
 import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 
 import HaatPoster from '../assets/poster.png'
@@ -20,7 +20,7 @@ import DashBoardPoster from '../assets/DashBoardWeb.png'
 // import EflyerPoster from '../assets/EflyerWeb.png'
 // import LudoPoster from '../assets/Ludo.png'
 // import PacmanPoster from '../assets/PacmanMove.png'
-// import RestaurantPoster from '../assets/Restaurant.png'
+import RestaurantPoster from '../assets/Restaurant.png'
 import RestaurantWebPoster from '../assets/RestaurantWeb.png'
 // import SolarPoster from '../assets/SolarSystem.png'
 import TodoAppPoster from '../assets/TodoApp.png'
@@ -55,12 +55,12 @@ const Projects = () => {
       videoName: TodoApp,
       posterName: TodoAppPoster
     },
-    // {
-    //   title1: "Restaurant : Webpage",
-    //   title2: "Using : HTML CSS",
-    //   videoName: Restaurant,
-    //   posterName: RestaurantPoster
-    // },
+    {
+      title1: "Restaurant : Webpage",
+      title2: "Using : HTML CSS",
+      videoName: Restaurant,
+      posterName: RestaurantPoster
+    },
     // {
     //   title1: "Drool : Webpage",
     //   title2: "Using : HTML CSS",
