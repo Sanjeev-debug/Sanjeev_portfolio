@@ -11,7 +11,7 @@ import Haat from '../assets/Haatvideo.mp4'
 // import SolarSystem from '../assets/SolarSystem.mp4'
 // import TodoApp from '../assets/TodoApp.mp4'
 // import Restaurant from '../assets/Restaurant.mp4'
-import RestaurantWeb from '../assets/RestaurantWeb.mp4'
+// import RestaurantWeb from '../assets/RestaurantWeb.mp4'
 
 import HaatPoster from '../assets/poster.png'
 // import CarPoster from '../assets/CarMoving.png'
@@ -21,7 +21,7 @@ import HaatPoster from '../assets/poster.png'
 // import LudoPoster from '../assets/Ludo.png'
 // import PacmanPoster from '../assets/PacmanMove.png'
 // import RestaurantPoster from '../assets/Restaurant.png'
-import RestaurantWebPoster from '../assets/RestaurantWeb.png'
+// import RestaurantWebPoster from '../assets/RestaurantWeb.png'
 // import SolarPoster from '../assets/SolarSystem.png'
 // import TodoAppPoster from '../assets/TodoApp.png'
 
@@ -43,12 +43,12 @@ const Projects = () => {
       videoName: RestaurantWeb,
       posterName: RestaurantWebPoster
     },
-    // {
-    //   title1: "DashBoardTodo : Website",
-    //   title2: " USing : React.js ",
-    //   videoName: DashBoardWeb,
-    //   posterName: DashBoardPoster
-    // },
+    {
+      title1: "DashBoardTodo : Website",
+      title2: " USing : React.js ",
+      videoName: DashBoardWeb,
+      posterName: DashBoardPoster
+    },
     // {
     //   title1: "TodoApp : website",
     //   title2: "Using : React.js ",
