@@ -1,0 +1,132 @@
+.mainNav{
+    width: 100%;
+    height: 60px;
+    /* border-bottom: 1px solid aqua; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+  }
+.mainNav h1{
+   text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    width: 30%;
+    color: aqua;
+
+}  
+.mainNav span{
+    color: goldenrod;
+}
+
+.navUl{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* transition: all 3s linear; */
+     
+}
+.navUl li{
+    position: relative;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 128, 0);
+    text-shadow: 2px 2px 3px white;
+    white-space: nowrap;
+    
+}
+.toggle{
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid aqua; */
+  position: absolute;
+  right: 10px;
+  color: aqua;
+  /* text-align: center !important; */
+  /* line-height: 30px; */
+  display: none;
+  
+}
+.toggleIcon{
+  font-size: 45px !important;
+  width: 100% !important;
+  height: 100% !important;
+ 
+  
+  
+}
+
+.navUl li:hover::after{
+    content: "";
+    width: inherit;
+    height: 0px;
+    
+    background-color:aqua;
+    box-shadow: 0px 0px 2px 1.5px rgb(103, 203, 231);
+    position: absolute;
+    left: 0;
+    top: 25px;
+    animation:move1 0.2s  linear  ;
+    
+    
+}
+
+
+@keyframes move1{
+    0% {width: 0px;}
+    100% {width: 60px;}
+}
+
+@media (max-width: 600px) {
+    .mainNav{
+        position: relative;
+        
+        
+        
+    }
+    .toggle{
+      display: block;
+    }
+  .navUl{
+    /* display: none; */
+    position: absolute;
+    width: 30%;
+    height: 200px;
+   
+   
+    /* bottom:  px; */
+    right: 10px;
+    
+    flex-direction: column;
+    margin-top: -300px;
+    /* z-index: 2; */
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px aqua;
+    transition: all .5s linear;
+   
+  }
+  .navtoggle{
+    margin-top: 270px;
+  }
+    
+   
+    
+    
+    
+  .navlink{
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 0px 0px 5px aqua ;
+  }
+  .mainNav h1{
+    position: absolute;
+    left: 10px;
+  }
+  
+  
+ 
+  
+}
+
