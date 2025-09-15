@@ -7,7 +7,7 @@ import DashBoardWeb from '../assets/DashBoardWeb.mp4'
 import DroolWeb from '../assets/DroolWeb.mp4'
 import EflyerWeb from '../assets/EflyerWeb.mp4'
 // import ludo from '../assets/ludoImage.mp4'
-// import PacMan from '../assets/PacmanMove.mp4'
+import PacMan from '../assets/PacmanMove.mp4'
 import SolarSystem from '../assets/SolarSystem.mp4'
 import TodoApp from '../assets/TodoApp.mp4'
 import Restaurant from '../assets/Restaurant.mp4'
@@ -19,7 +19,7 @@ import DashBoardPoster from '../assets/DashBoardWeb.png'
 import DroolPoster from '../assets/DroolWeb.png'
 import EflyerPoster from '../assets/EflyerWeb.png'
 // import LudoPoster from '../assets/Ludo.png'
-// import PacmanPoster from '../assets/PacmanMove.png'
+import PacmanPoster from '../assets/PacmanMove.png'
 import RestaurantPoster from '../assets/Restaurant.png'
 import RestaurantWebPoster from '../assets/RestaurantWeb.png'
 import SolarPoster from '../assets/SolarSystem.png'
@@ -85,12 +85,12 @@ const Projects = () => {
       videoName: CarMoving,
       posterName: CarPoster
     },
-    //  {
-    //   title1: "Pacman : Webpage",
-    //     title2: "Using : HTML CSS (Animation)",
-    //   videoName: PacMan,
-    //   posterName: PacmanPoster
-    // },
+     {
+      title1: "Pacman : Webpage",
+        title2: "Using : HTML CSS (Animation)",
+      videoName: PacMan,
+      posterName: PacmanPoster
+    },
     //  {
     //   title1: "Ludo : Webpage",
     //   title2: "Using : HTML CSS",
