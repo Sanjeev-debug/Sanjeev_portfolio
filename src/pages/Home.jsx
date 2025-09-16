@@ -19,7 +19,7 @@ const Home = () => {
               <h1> Hi, I'm Sanjeev Kumar </h1>
             <h3>
               <ReactTyped 
-                strings={["Full Stack Web Developer"]}
+                strings={["Full Stack Web Developer","Expert In Frontend Developer"]}
                 typeSpeed={80}
                 backSpeed={50}
                 loop
