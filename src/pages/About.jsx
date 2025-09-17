@@ -4,6 +4,7 @@ import LinesMove from '../components/LinesMove'
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import Sanjeev from '../assets/Sanjeev.jpeg'
+import resumePDF from '../assets/Sanjeev_Kumar_FullStackDeveloper.pdf'
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
 
 
         </div>
-       <div className='downloadMain' > <a className='download' href={`${process.env.PUBLIC_URL}/Sanjeev_Kumar_FullStackDeveloper.pdf`}   download="Sanjeev_kumar_FullStackDeveloper.pdf" > Resume - Download</a></div>
+       <div className='downloadMain' > <a className='download' href={resumePDF}   download="Sanjeev_kumar_FullStackDeveloper.pdf" > Resume - Download</a></div>
       </div>
     </>
   )
