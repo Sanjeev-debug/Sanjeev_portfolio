@@ -23,7 +23,7 @@ const About = () => {
 
 
         </div>
-       <div className='downloadMain' > <a className='download' href="/Sanjeev_portfolio/Sanjeev_kumar_FullStackDeveloper.pdf" download="Sanjeev_kumar_FullStackDeveloper.pdf" > Resume - Download</a></div>
+       <div className='downloadMain' > <a className='download' href={process.env.PUBLIC_URL + '/Sanjeev_Kumar_FullStackDeveloper.pdf'}  download="Sanjeev_kumar_FullStackDeveloper.pdf" > Resume - Download</a></div>
       </div>
     </>
   )
