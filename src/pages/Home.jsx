@@ -30,7 +30,7 @@ const Home = () => {
             <p><i>“I love building scalable web apps using React, Node.js, MySQL, MongoDB, Python, Django etc. Currently exploring AI/ML to create intelligent solutions.”</i></p>
             <div className='homeButton' >
               <div  className='contactButton'   > <Link to={"/contactMe"} className='contactLink' > <i>Contact Me</i> </Link></div>
-              <div className='resumeButton' > <a href='/Sanjeev-cv.pdf' download="Sanjeev-Kumar-CV.pdf" className='resumeLink' > <i>Get Resume  </i> </a></div>
+              <div className='resumeButton' > <a href='/Sanjeev_kumar_FullStackDeveloper.pdf' download="Sanjeev_kumar_FullStackDeveloper.pdf" className='resumeLink' > <i>Get Resume  </i> </a></div>
 
             </div>
 
