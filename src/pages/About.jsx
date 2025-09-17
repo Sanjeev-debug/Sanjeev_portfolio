@@ -23,7 +23,7 @@ const About = () => {
 
 
         </div>
-       <div className='downloadMain' > <a className='download' href="/Sanjeev-cv.pdf" download="Sanjeev-Kumar-CV.pdf" > Resume - Download</a></div>
+       <div className='downloadMain' > <a className='download' href="/Sanjeev_kumar_FullStackDeveloper.pdf" download="Sanjeev_kumar_FullStackDeveloper.pdf" > Resume - Download</a></div>
       </div>
     </>
   )
