@@ -4,7 +4,7 @@ import LinesMove from '../components/LinesMove'
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import Sanjeev from '../assets/Sanjeev.jpeg'
-import resumePDF from '../assets/Sanjeev_Kumar_FullStackDeveloper.pdf'
+import resumePDF from '../assets/Sanjeev-Kumar-FullStackDeveloper.pdf'
 
 const About = () => {
   return (
