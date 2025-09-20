@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import  {ReactTyped}  from 'react-typed';
 
 import LinesMove from '../components/LinesMove';
-import resumePDF from '../assets/Sanjeev-Kumar-FullStackDeveloper.pdf'
+import resumePDF from '../assets/Sanjeev_Kumar_FullStackDeveloper.pdf'
 
 
 
